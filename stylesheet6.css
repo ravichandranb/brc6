@@ -1,0 +1,356 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+/*----------START--RESPONSIVE SETTING FOR ROW1--------------*/
+@media only screen and (max-width: 576px) {
+  #links-image,
+  #menu-image {
+    display: inline;
+  }
+  .hdr-div1,
+  .forms {
+    display: none;
+  }
+}
+@media only screen and (min-width: 576px) {
+  #links-image,
+  #menu-image {
+    display: none;
+  }
+  .hdr-div1,
+  .forms {
+    display: inline;
+  }
+}
+
+@media only screen and (max-width: 886px) {
+  .bigwhite-subdiv1,
+  .bigwhite-subdiv2,
+  .hdr-div1,
+  .hdr-dummydiv,
+  .hdr-div2,
+  .flomic-logo,
+  .forms,
+  .row3-subdiv {
+    width: 100%;
+    text-align: center;
+  }
+  /*#logo1 {
+    display: none;
+  }*/
+
+  .greytext-div1,
+  .greytext-div2 {
+    width: 100%;
+    margin: 1vh 0 1vh 0;
+    padding: 2%;
+  }
+  .small-image2 {
+    width: 15%;
+  }
+
+  .address-subdiv1,
+  .address-subdiv2,
+  .address-subdiv3 {
+    width: 100%;
+    border: 0.25vw solid white;
+    margin: 1vh 0 1vh 0;
+    text-align: center;
+  }
+}
+@media only screen and (min-width: 887px) {
+  .hdr-div1,
+  .hdr-dummydiv,
+  .hdr-div2 {
+    width: 33.3333333%;
+  }
+  .hdr-div1 {
+    text-align: right;
+  }
+
+  .hdr-div2 {
+    text-align: left;
+  }
+  .flomic-logo {
+    width: 40%;
+  }
+  /*#logo2 {
+    display: none;
+  }*/
+
+  .forms {
+    width: 60%;
+  }
+  .row3-subdiv {
+    width: 33%;
+  }
+
+  .bigwhite-subdiv1,
+  .bigwhite-subdiv2 {
+    width: 100%;
+  }
+  .greytext-div1,
+  .greytext-div2 {
+    width: 100%;
+    margin: 1vh 0 1vh 0;
+    padding: 2%;
+  }
+  .small-image2 {
+    width: 15%;
+  }
+
+  .address-subdiv1 {
+    width: 40%;
+  }
+  .address-subdiv2 {
+    width: 30%;
+  }
+  .address-subdiv3 {
+    width: 30%;
+  }
+}
+@media only screen and (min-width: 1100px) {
+  .bigwhite-subdiv1,
+  .bigwhite-subdiv2 {
+    width: 50%;
+  }
+  .greytext-div1,
+  .greytext-div2 {
+    width: 40%;
+    margin-right: 1%;
+    margin-left: 9%;
+    text-align: left;
+    padding: 0%;
+  }
+  .small-image2 {
+    width: 30%;
+    float: left;
+  }
+}
+/*@media only screen and (max-width:700px){
+  .bigwhite-subdiv1,.bigwhite-subdiv2{
+    width:100%;
+  }
+
+}
+@media only screen and (min-width:7000px){
+  .bigwhite-subdiv1,.bigwhite-subdiv2{
+    width: 50%;
+  }*/
+/*----------END--RESPONSIVE SETTING FOR ROW1--------------*/
+
+/*--------------START--FIRST ROW WITH LINKS AND CONTACT DETAILS----------------*/
+
+.hdr-maindiv {
+  padding: 8% 0 0 0;
+}
+.hdr-div1,
+.hdr-dummydiv,
+.hdr-div2 {
+  background-color: rgb(61, 55, 55);
+  float: left;
+  height: 21px;
+}
+
+.hdr-maindiv p {
+  display: inline;
+  color: white;
+}
+.clear1 {
+  clear: both;
+}
+
+/*--------------END--FIRST ROW WITH LINKS AND CONTACT DETAILS----------------*/
+
+/*-------------START--SECOND ROW IN WHITE WITH FLOMIC LOGO AND FORMS----------------------*/
+.hdr-whitediv {
+  background-color: white;
+  text-align: center;
+  padding: 2% 0;
+}
+.flomic-logo {
+  height: 30px;
+  float: left;
+}
+.forms {
+  height: 30px;
+  float: left;
+  padding: 1%;
+}
+.forms p {
+  display: inline;
+}
+.forms p:hover {
+  background-color: green;
+  border: 0.5vw solid green;
+}
+.clear2 {
+  clear: both;
+}
+
+/*-------------END--SECOND ROW IN WHITE WITH FLOMIC LOGO AND FORMS----------------------*/
+/*-------------START- THIRD ROW WITH BACKGROUND IMAGE AND THREE COLUMNS-------------*/
+/*.row3-maindiv {
+  clear: both;
+  background-color: grey;
+  padding: 6% 10%;
+  height: 100vh;
+}
+*/
+.sec {
+  padding: 5% 10%;
+}
+.row3-subdiv {
+  float: left;
+  border: 1.5vw solid black;
+  padding: 1.5vw solid black;
+
+  text-align: center;
+  opacity: 80%;
+}
+.row3-subdiv:hover {
+  background-color: white;
+  opacity: 100%;
+}
+.row3-p1 {
+  background-color: lightgray;
+  text-transform: uppercase;
+}
+.row3-p2 {
+  background-color: white;
+  word-spacing: 0.5vw;
+  line-height: 60px;
+}
+.row3-p3 {
+  background-color: green;
+  text-transform: uppercase;
+  height: 50px;
+}
+.clear3 {
+  clear: both;
+}
+/*-------------END- THIRD ROW WITH BACKGROUND IMAGE AND THREE COLUMNS-------------*/
+/*---------------START - FOURTH ROW -WHITE BACKGROUND---------------------*/
+.bigwhite-maindiv {
+  background-color: white;
+}
+.bigwhite-subdiv1 {
+  background-color: grey;
+  color: white;
+  float: left;
+  border: 7vw solid white;
+
+  padding: 30% 0 0 0;
+
+  text-align: center;
+}
+.bigwhite-subdiv-1-1 {
+  background-color: black;
+}
+.bigwhite-subdiv2 {
+  float: left;
+  border: 7vw solid white;
+
+  text-align: left;
+}
+.bigwhite-subdiv2 .d1 {
+  border: 0.2vw solid white;
+}
+.bigwhite-subdiv2 .d2 {
+  border: 0.2vw solid white;
+  clear: both;
+}
+.bigwhite-subdiv2 .d3 {
+  border: 0.2vw solid white;
+  clear: both;
+}
+.small-image {
+  margin: 10px;
+  width: 20%;
+  max-height: 100%;
+}
+.green-para {
+  display: inline;
+  border: 0.25vw solid green;
+  color: green;
+}
+.clear4 {
+  clear: both;
+}
+/*-------START- FIFTH ROW - GREY BACGROUND----------------------------*/
+.greytext-div {
+  background-color: lightgrey;
+
+  padding: 3% 0 3% 0;
+
+  text-align: center;
+}
+/*.small-image2 {
+  width: 30%;
+}*/
+.greytext-div1 {
+  float: left;
+  /*text-align: left;*/
+  background-color: orange;
+  /*width: 40%;
+  margin-right: 1%;
+  margin-left: 9%;*/
+}
+.greytext-div2 {
+  float: left;
+  /*text-align: left;**/
+  background-color: skyblue;
+  /*width: 40%;
+
+  margin-right: 9%;
+  margin-left: 1%;*/
+}
+.greytext-para {
+  text-align: left;
+  display: inline;
+  color: white;
+}
+.trans-para {
+  display: inline;
+  border: 0.25vw solid white;
+  color: white;
+}
+.clear5 {
+  clear: both;
+}
+
+/*-------END- FIFTH ROW - GREY BACGROUND----------------------------*/
+
+/*-----START------ SIXTH ROW- ADDRESS DETAILS----------------------------*/
+.address-div {
+  background-color: rgb(61, 55, 55);
+  padding: 3% 10% 3% 10%;
+}
+.address-subdiv1 {
+  padding: 1%;
+  background-color: rgb(61, 55, 55);
+  float: left;
+  color: white;
+}
+.address-subdiv2 {
+  padding: 1%;
+  padding: 0.5%;
+  background-color: rgb(61, 55, 55);
+  float: left;
+  color: white;
+}
+.address-subdiv3 {
+  padding: 1%;
+  padding: 0.5%;
+  background-color: rgb(61, 55, 55);
+  float: left;
+  color: white;
+}
+#submit {
+  background-color: green;
+}
+.clear6 {
+  clear: both;
+}
+/*-----START------ SIXTH ROW- ADDRESS DETAILS----------------------------*/
